@@ -9,10 +9,10 @@ export const App = () => (
   <Router>
     <Header />
     <Switch>
-      <Route path="/" exact>
+      <Route exact path="/">
         <Home />
       </Route>
-      <Route path="/reservation:id" exact>
+      <Route exact path="/Reservation/:id">
         <Reservation />
       </Route>
     </Switch>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Seat } from '../Seat';
-// import './style.css';
 
 export const SeatRow = ({ row, selectedSeatNumber, onSelectSeat }) => (
   <div className="seat-row">
